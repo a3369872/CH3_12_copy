@@ -342,7 +342,7 @@ def test(request):
     #  CH3_12
 
     def test(request):
-        return HttpResponse("Hello world")
+        return HttpResponse("Hello world!!!!!!")
     def search_list(requst):
         if 'cName' in request.GET:
             cName = request.GET['cName']
